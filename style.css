@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(59, 161, 161);
+    display: flex;
+    flex-direction: column;
+}
+
+.major {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h2 {
+    background-color: rgb(55, 130, 153);
+    border-radius: 10px;
+    padding: 6px;
+    border: 4px dotted;
+    font-size: 3.3em;
+    -webkit-text-stroke: black 1px;
+    color: azure;
+}
+
+h1 {
+    -webkit-text-stroke: black 2px;
+    color: azure;
+    font-size: 7em;
+}
+
+.major-2 {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+button {
+    transition: ease-in-out 0.2s;
+    border: 3px black solid;
+    border-radius: 30px;
+    background-color: azure;
+    font-size: 20px;
+    width: 5em;
+    padding: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+#dec:active {
+    transition-duration: 0.1s;
+    background-color: crimson;
+}
+
+#res:active {
+    transition-duration: 0.1s;
+    background-color: yellow;
+}
+
+#inc:active {
+    transition-duration: 0.1s;
+    background-color: chartreuse;
+}
+
